@@ -1,0 +1,18 @@
+GET http://localhost:3001/todos
+
+###
+
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    "text": "Order milk"
+}
+
+###
+
+DELETE http://localhost:3001/todo/delete/61eeb433039cf9b9bcfa143f
+
+###
+
+PUT http://localhost:3001/todo/complete/61eeb41536a5019218c3df38
